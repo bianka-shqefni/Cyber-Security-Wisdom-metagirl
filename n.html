@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=2">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+body{
+        background-image: url(siguribg.jpg);
+        background-size: 1800px 1220px;
+        background-repeat: no-repeat;
+
+       }
+    p{
+       color:rgba(255,255,255,1.0);
+       margin-top: 200;
+       margin-bottom: 50;
+       font-family: Century Gothic;
+       font-size: 100%;
+}
+
+    ol{
+       color:rgba(255,255,255,1.0);
+       margin-top: 200;
+       margin-bottom: 50;
+       font-family: Century Gothic;
+       font-size: 100%;
+}
+     h5{color:rgba(255,255,255,1.0);
+        margin-top: 20;
+        margin-bottom: 20;
+        font-family: Century Gothic;
+     }
+     .material-icons{ color: white;
+                     font-size: 300%;;
+    }
+</style>
+</head>
+<body>
+<i class="material-icons">computer</i>
+<p></br>
+
+<strong>Nikto</strong> &euml;sht&euml; skaner i serverit t&euml; web-it t&euml; hapur (GPL) i cili kryen teste kundrejt server&euml;ve t&euml; internetit p&euml;r artikuj t&euml; shumt&euml;, duke p&euml;rfshir&euml; mbi 6700 skedar&euml; / programe potencialisht t&euml; rrezikshme, kontrolle p&euml;r versionet e vjetruara t&euml; serverave mbi 1250 dhe probleme specifike n&euml; mbi 270 servera. Ai gjithashtu kontrollon p&euml;r sendet e konfigurimit t&euml; serverit siç &euml;sht&euml; prania e dosjeve t&euml; shumta t&euml; indeksit, opsionet e serverit HTTP dhe do t&euml; p&euml;rpiqet t&euml; identifikoj&euml; serverat dhe softuer&euml;t e instaluar t&euml; uebit. Artikujt e skanimit dhe shtojcat p&euml;rdit&euml;sohen shpesh dhe mund t&euml; p&euml;rdit&euml;sohen automatikisht.
+
+Nikto nuk &euml;sht&euml; projektuar si nj&euml; mjet i fsheht&euml;. Ai teston nj&euml; server web n&euml; koh&euml;n m&euml; t&euml; shpejt&euml; t&euml; mundshme, dhe &euml;sht&euml; e dukshme n&euml; skedar&euml;t e regjistrit ose n&euml; nj&euml; IPS / IDS. Megjithat&euml;, ka mb&euml;shtetje p&euml;r metodat anti-IDS t&euml; LibWhisker n&euml; rast se doni t&euml; provoni (ose testoni sistemin tuaj IDS).
+
+Jo çdo kontroll &euml;sht&euml; nj&euml; problem i siguris&euml;, megjith&euml;se shumica jan&euml;. Ekzistojn&euml; disa artikuj q&euml; jan&euml; kontrolle tip "vet&euml;m info" q&euml; k&euml;rkojn&euml; gj&euml;ra q&euml; nuk mund t&euml; ken&euml; nj&euml; t&euml; met&euml; t&euml; siguris&euml;, por webmasteri ose inxhinieria e siguris&euml; mund t&euml; mos e din&euml; se jan&euml; t&euml; pranish&euml;m n&euml; server. K&euml;to artikuj zakonisht sh&euml;nohen n&euml; m&euml;nyr&euml; t&euml; p&euml;rshtatshme n&euml; informacionin e printuar. Ka edhe disa kontrolle p&euml;r sendet e panjohura q&euml; jan&euml; par&euml; skanuar p&euml;r skedar&euml;t e regjistrit.
+<ol>
+<strong>Karakteristikat:</strong>
+
+<li>Mb&euml;shtetja SSL (Unix me OpenSSL ose ndoshta Windows me Perl / NetSSL t&euml; ActiveState)</li>
+<li>Mb&euml;shtetje e plot&euml; HTTP proxy</li>
+<li>Kontrollon komponent&euml;t e vjet&euml;r t&euml; serverit</li>
+<li>Ruaj raportet n&euml; tekst t&euml; thjesht&euml;, XML, HTML, NBE ose CSV</li>
+<li>Modeli i motorit p&euml;r t&euml; p&euml;rshtatur leht&euml; raportet</li>
+<li>Skenoni porte t&euml; shumta n&euml; nj&euml; server, ose servera t&euml; shumta p&euml;rmes skedar&euml;ve t&euml; hyrjes (duke p&euml;rfshir&euml; daljen nmap)</li>
+<li>Teknikat e kodimit t&euml; IDS t&euml; LibWhisker</li>
+<li>P&euml;rdit&euml;sohet leht&euml; me an&euml; t&euml; komand&euml;s</li>
+<li>Identifikon softuerin e instaluar p&euml;rmes headers, favicons dhe files</li>
+<li>Authentication host me Basic dhe NTLM</li>
+<li>N&euml;n-dominimi guessing</li>
+<li>Regjistrimi i emrit t&euml; p&euml;rdoruesit Apache dhe cgiwrap</li>
+<li>Teknikat e mutacioneve p&euml;r t&euml; "peshuar" p&euml;r p&euml;rmbajtjen n&euml; serverat e internetit</li>
+<li>Skanimi i akordimit p&euml;r t&euml; p&euml;rfshir&euml; ose p&euml;rjashtuar t&euml; gjitha klasat e kontrolleve t&euml; cenueshm&euml;ris&euml;</li>
+<li>Arsyetoni kredencialet p&euml;r autoritetet e autorizimit (duke p&euml;rfshir&euml; shum&euml; kombe t&euml; parazgjedhur id / pw)</li>
+<li>Guessing autorizim trajton ndonj&euml; directory, jo vet&euml;m directory root</li>
+<li>Zvog&euml;limi pozitiv i rrejsh&euml;m pozitiv p&euml;rmes metodave t&euml; shumta: headers,</li>
+<li>p&euml;rmbajtjen e faqes dhe p&euml;rmbajtjen e p&euml;rmbajtjes</li>
+<li>Raportet "headers" pazakont&euml; par&euml;</li>
+<li>Statusi interaktiv, pauz&euml; dhe ndryshime n&euml; cil&euml;simet e verbositetit</li>
+<li>Ruaj k&euml;rkes&euml;n / p&euml;rgjigjen e plot&euml; p&euml;r testet pozitive</li>
+<li>Replay ka ruajtur k&euml;rkesa pozitive</li>
+<li>Koha maksimale e ekzekutimit p&euml;r objektiv</li>
+<li>Auto-pauz&euml; n&euml; nj&euml; koh&euml; t&euml; caktuar</li>
+<li>Kontrollon vende t&euml; p&euml;rbashk&euml;ta "parkimi"</li>
+<li>Regjistrimi n&euml; Metasploit</li>
+<li>Dokumentacion i plot&euml;</li>
+</ol>
+
+<p>
+  <h5>Kliko <mark style="background-color:rgba(255,255,255,1.0);"><a href="tools.html" align="left">k&euml;tu </a></mark> p&euml;r m&euml; shum&euml; tools.</h5>
+
+</body>
+</html>

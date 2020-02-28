@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<titile> CyberSecurity Wisdom
+</title>
+
+<style>
+body{
+        background-image: url(kontakti.jpg);
+        background-size: 1600px 1550px;
+        background-repeat: no-repeat;
+
+       }
+
+    h1{
+       color:rgba(255,255,255,1.0);
+       margin-top: 200;
+       margin-bottom: 50;
+       font-family: "Century Gothic";
+       font-size: 450%;
+}
+     h3{color:rgba(0,0,0,1.0);
+        background-image:url(white.jpg);
+        padding-top: 0.3%;
+        padding-bottom: 0.3%;
+        margin-top:0;
+        margin-bottom: 0;
+        white-space: nowrap; 
+        width: 1570px; 
+        border: 1px solid #000000;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: "Century Gothic";
+}
+
+    h2{
+       color:rgba(255,255,255,1.0);
+       margin-top: 200;
+       margin-bottom: 50;
+       font-family: "Century Gothic";
+       font-size: 200%;
+}
+    p{
+       color:rgba(255,255,255,1.0);
+       margin-top: 200;
+       margin-bottom: 50;
+       font-family: "Century Gothic";
+       font-size: 120%;
+}
+
+{
+  box-sizing: border-box;
+}
+  input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #D8BFD8;
+  color: white;
+  font-family: "Century Gothic";
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid 	#9370DB;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: "Century Gothic";
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-family: "Century Gothic";
+}
+
+input[type=submit] {
+  background-color: blacks;
+  color: black;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  font-family: "Century Gothic";
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  font-family: "Century Gothic";
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #E6E6FA ;
+  padding: 20px;
+  font-family: "Century Gothic";
+}
+
+.EMRI {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+  font-family: "Century Gothic";
+}
+
+.MBIEMRI {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  font-family: "Century Gothic";
+}
+
+.Nr.Telefonit {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  color: black;
+  font-family: "Century Gothic";
+}
+
+.Gjuh&euml{
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  color: black;
+  font-family: "Century Gothic";
+}
+
+.Subjekti{
+  float: left;
+  width: 75%;
+  margin-top: 2px;
+  color: black;
+  
+}
+
+.Email{
+
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  color: black;
+  font-family: "Century Gothic";
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+@media screen and (max-width: 500px) {
+  .EMRI, .MBIEMRI, Nr.Telefonit .Angazhim  .Gjuh&euml .Subjekti .Email input[type=submit] {
+    width: 100%;
+    margin-top: 1;
+  }
+}
+
+a:link{
+       text-decoration:none;
+       color: black;
+       }
+</style>
+  </head>
+    <body>
+   <h1 align="center">CyberSecurity Wisdom</h1>
+   <h3 align="center" ><a href="index.html">Home</a>|
+                       <a href="Siguri.html">Siguri</a>|
+                       <a href="FAQ.html">FAQ</a>|
+                       <a href="Tools.html">Tools</a>|
+                       <a href="formulari.html">Formulari </a></h3>
+   
+    <h2 align="center">Formulari i Komunitetit</h2>
+      <p>*Pas plot&euml;simit t&euml; formularit do t&euml; njoftoheni p&euml;r dat&euml;n e zhvillimit t&euml; nj&euml; interviste.</p>
+         <form method="GET" action="/cgi-bin/formmail">
+          <input type="hidden" name="recepient" value="bianka.shqefni1@gmail.com">
+          <input type="hidden" name="subject" value="bianka.shqefni1@gmail.com">
+          <input type="hidden" name="redirect" value="feedback form">
+          <input type="hidden" name="recepient" value="main.html">
+
+  <div class="container">
+   <div class="row">
+    <div class="EMRI">
+      <label for="fname">Emri</label>
+    </div>
+    
+  <div class="MBIEMRI">
+    <input type="text" id="fname" name="firstname" placeholder="Emri...">
+    </div>
+</div>
+  <div class="row">
+    <div class="EMRI">
+      <label for="lname">Mbiemri</label>
+    </div>
+    <div class="MBIEMRI">
+      <input type="text" id="lname" name="lastname" placeholder="Mbiemri...">
+    </div>
+</div>
+
+<div class="row">
+    <div class="EMRI">
+      <label for="Gjuha">Cil&euml;n/Cilat nga gjuh&euml;t e programimit zot&euml;roni m&euml; s&euml; miri?</label>
+    </div>
+    <div class="MBIEMRI">
+      <input type="text" id="Gjuh&euml;" name="Gjuh&euml;" placeholder="Gjuh&euml; Programimi...">
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="EMRI">
+      <label for="country">Qyteti</label>
+    </div>
+    <div class="MBIEMRI">
+      <select id="country" name="country">
+        <option value="australia">Tiran&euml;</option>
+        <option value="canada">Durres</option>
+        <option value="usa">Elbasan</option>
+</select>
+ </div>
+
+  <div class="row">
+    <div class="EMRI">
+      <label for="Subjekti" >Subjekti</label>
+    </div>
+    <div class="MBIEMRI">
+      <textarea id="Subjekti" name="Subjekti" placeholder="Mendimi yt mbi komunitetin..." style="height:200px " ></textarea>
+    </div>
+  </div>
+
+<div class="EMRI">
+   <label for="Nr.Telefonit">Nr.Telefonit</label>
+    </div>
+     <div class="MBIEMRI">
+      <input type="text" id="Nr.Telefonit" name="Nr.Telefonit" placeholder="Nr.Telefonit...">
+</div>
+
+<div class="row">
+    <div class="EMRI">
+      <label for="EMAIL">Email-i</label>
+    </div>
+    <div class="MBIEMRI">
+      <input type="text" id="Email" name="Email" placeholder="Email-i juaj...">
+    </div>
+  </div>
+    <div class="row">
+    <div class="EMRI">
+      <label for="Angazhim"><strong>Doni t&euml; angazhoheni me koh&euml; t&euml; plot&euml;?</strong></label>
+    </div>
+     <div class="MBIEMRI">
+       <input name="Angazhimi" type="RADIO" value="PO" checked> PO
+       <input name="Angazhimi" type="RADIO" value="JO" checked> JO
+  </div>
+<div class="row">
+   <input type="submit" value="Submit">
+    </div>
+     <div class="row">
+    <div>
+</form>
+</div>
+</body>
+</html>
